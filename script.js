@@ -1,0 +1,1 @@
+var backendCanvas =  getElementById("backendCanvas").getContext("2d");
