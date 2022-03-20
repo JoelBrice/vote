@@ -1,12 +1,10 @@
 body{
     text-align: center;
     background: #d8dddf;
+    height: 100vh;
 }
 
-.header h1{
-    color: #031f53;
-}
-.header p{
+.header{
     color: #031f53;
     font-size: 16px;
     font-weight: 600;
@@ -15,7 +13,6 @@ body{
 .languages{
     display: inline-block;
     padding: 15px;
-    margin: 10px;
 }
 .backend{
     display: block;
@@ -23,9 +20,10 @@ body{
 .backend button{
     border: 2px solid #0b4fcc;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 20px;
     color: #031f53;
     cursor: pointer;
+    margin: 2px;
 }
 .backend button:hover, .backend button:focus, .backend button:active{
     background-color: #0b4fcc;
@@ -39,21 +37,21 @@ body{
     display: block;
 }
 .frontend button{
-    border: 2px solid #17d6f0;
+    border: 2px solid #07cae4;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 20px;
     cursor: pointer;
     color: #031f53;
-    
+    margin: 2px;
 }
 .frontend button:hover, .frontend button:focus, .frontend button:active{
     background-color: #17d6f0;
     color: #fcfcfc;
 }
 .frontend h1{
-    color: #17d6f0;
+    color: #0b4fcc;;
 }
 
 .backendCanvas{
-    background-color: rgb(168, 183, 235);
+    background-color: #a8b7eb;
 }
